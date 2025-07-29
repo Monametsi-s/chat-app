@@ -33,22 +33,22 @@ To get this project up and running on your local machine, follow these steps:
 
 ```Bash
 # Clone the repository
-git clone [https://github.com/Monametsi-s/chat-app.git](https://github.com/your-username/mern-chat-app.git)
-cd mern-chat-app
+git clone https://github.com/Monametsi-s/chat-app.git
+cd chat-app
 ```
 
-# Install backend dependencies
+### Install backend dependencies
 ```Bash
 npm install
 ```
 
-# Install fronted dependencies:
+### Install fronted dependencies:
 ```Bash 
 cd frontend
 npm install
 ```
 # cd .. # Go back to the root if you ran the above
-⚙️ Environment Setup
+###⚙️ Environment Setup
 Create a .env file in the root directory of the project and add your environment variables:
 
 ```Bash
@@ -61,21 +61,22 @@ CLOUDINARY_API_KEY=your_api_key
 CLOUDINARY_API_SECRET=your_api_secret
 ```
 
-🧪 Run the App
+###🧪 Run the App
 From the root directory of your project:
-# For development (watches for changes and restarts the server)
+### For development (watches for changes and restarts the server)
 ```Bash 
 npm run dev
 ```
 
-# For production (runs the compiled JavaScript)
-
+### For production (runs the compiled JavaScript)
+```Bash 
 npm start
-📡 Socket.IO Integration
-
+```
+###📡 Socket.IO Integration
 Socket.IO is crucial for this app, enabling real-time communication between users. Messages are instantly broadcast to recipients, ensuring a smooth and responsive chat experience without the need to refresh the page.
 
-📁 Folder Structure
+##📁 Folder Structure
+```Bash
 backend/
 ├── config/             # Database and Cloudinary configuration
 ├── controllers/        # Authentication and message logic
@@ -85,6 +86,7 @@ backend/
 ├── socket/             # Socket.IO setup and event handling
 ├── .env                # Environment variables
 ├── server.js           # Main entry point for the backend server
+```
 
-📄 License
+##📄 License
 This project is licensed under the MIT License.
