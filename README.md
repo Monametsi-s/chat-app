@@ -47,8 +47,9 @@ npm install
 cd frontend
 npm install
 ```
-# cd .. # Go back to the root if you ran the above
-###⚙️ Environment Setup
+ cd ..  Go back to the root if you ran the above
+
+### ⚙️ Environment Setup
 Create a .env file in the root directory of the project and add your environment variables:
 
 ```Bash
@@ -61,7 +62,7 @@ CLOUDINARY_API_KEY=your_api_key
 CLOUDINARY_API_SECRET=your_api_secret
 ```
 
-###🧪 Run the App
+### 🧪 Run the App
 From the root directory of your project:
 ### For development (watches for changes and restarts the server)
 ```Bash 
@@ -72,10 +73,10 @@ npm run dev
 ```Bash 
 npm start
 ```
-###📡 Socket.IO Integration
+### 📡 Socket.IO Integration
 Socket.IO is crucial for this app, enabling real-time communication between users. Messages are instantly broadcast to recipients, ensuring a smooth and responsive chat experience without the need to refresh the page.
 
-##📁 Folder Structure
+## 📁 Folder Structure
 ```Bash
 backend/
 ├── config/             # Database and Cloudinary configuration
@@ -88,5 +89,5 @@ backend/
 ├── server.js           # Main entry point for the backend server
 ```
 
-##📄 License
+## 📄 License
 This project is licensed under the MIT License.
