@@ -64,7 +64,6 @@ CLOUDINARY_API_SECRET=your_api_secret
 
 ### 🧪 Run the App
 From the root directory of your project:
-### For development (watches for changes and restarts the server)
 ```Bash 
 npm run dev
 ```
