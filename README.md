@@ -47,7 +47,7 @@ npm install
 cd frontend
 npm install
 ```
- cd ..  Go back to the root if you ran the above
+ ```Bash cd .. ```  To go back to the root if you ran the above
 
 ### ⚙️ Environment Setup
 Create a .env file in the root directory of the project and add your environment variables:
