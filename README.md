@@ -31,22 +31,27 @@ Dive into real-time conversations with the **MERN Chat App** – a robust, full-
 
 To get this project up and running on your local machine, follow these steps:
 
-```bash
+```Bash
 # Clone the repository
-git clone [https://github.com/your-username/mern-chat-app.git](https://github.com/your-username/mern-chat-app.git)
+git clone [https://github.com/Monametsi-s/chat-app.git](https://github.com/your-username/mern-chat-app.git)
 cd mern-chat-app
+```
 
 # Install backend dependencies
+```Bash
 npm install
+```
 
-# If you're also setting up the frontend (and it's in a 'frontend' directory):
-# cd frontend
-# npm install
+# Install fronted dependencies:
+```Bash 
+cd frontend
+npm install
+```
 # cd .. # Go back to the root if you ran the above
 ⚙️ Environment Setup
 Create a .env file in the root directory of the project and add your environment variables:
 
-Code snippet
+```Bash
 
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
@@ -54,15 +59,17 @@ JWT_SECRET=your_jwt_secret
 CLOUDINARY_CLOUD_NAME=your_cloud_name
 CLOUDINARY_API_KEY=your_api_key
 CLOUDINARY_API_SECRET=your_api_secret
+```
+
 🧪 Run the App
 From the root directory of your project:
-
-Bash
-
 # For development (watches for changes and restarts the server)
+```Bash 
 npm run dev
+```
 
 # For production (runs the compiled JavaScript)
+
 npm start
 📡 Socket.IO Integration
 
