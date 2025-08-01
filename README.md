@@ -73,6 +73,7 @@ npm run dev
 npm start
 ```
 ### 📡 Socket.IO Integration
+Socket.IO is a JavaScript library that enables real-time, bi-directional communication between clients and servers over WebSockets or fallback transports like long polling. It’s commonly used for building features like chat apps, live notifications, real-time analytics, and multiplayer games.
 Socket.IO is crucial for this app, enabling real-time communication between users. Messages are instantly broadcast to recipients, ensuring a smooth and responsive chat experience without the need to refresh the page.
 
 ## 📁 Folder Structure
