@@ -38,18 +38,22 @@ cd chat-app
 ```
 
 ### Install backend dependencies
+
 ```Bash
 npm install
 ```
 
-### Install fronted dependencies:
-```Bash 
+### Install fronted dependencies
+
+```Bash
 cd frontend
 npm install
 ```
- ```Bash cd .. ```  To go back to the root if you ran the above
+
+ ```Bash cd ..```  To go back to the root if you ran the above
 
 ### ⚙️ Environment Setup
+
 Create a .env file in the root directory of the project and add your environment variables:
 
 ```Bash
@@ -63,20 +67,26 @@ CLOUDINARY_API_SECRET=your_api_secret
 ```
 
 ### 🧪 Run the App
+
 From the root directory of your project:
-```Bash 
+
+```Bash
 npm run dev
 ```
 
 ### For production (runs the compiled JavaScript)
-```Bash 
+
+```Bash
 npm start
 ```
+
 ### 📡 Socket.IO Integration
+
 Socket.IO is a JavaScript library that enables real-time, bi-directional communication between clients and servers over WebSockets or fallback transports like long polling. It’s commonly used for building features like chat apps, live notifications, real-time analytics, and multiplayer games.
 Socket.IO is crucial for this app, enabling real-time communication between users. Messages are instantly broadcast to recipients, ensuring a smooth and responsive chat experience without the need to refresh the page.
 
 ## 📁 Folder Structure
+
 ```Bash
 backend/
 ├── config/             # Database and Cloudinary configuration
@@ -90,4 +100,5 @@ backend/
 ```
 
 ## 📄 License
+
 This project is licensed under the MIT License.
