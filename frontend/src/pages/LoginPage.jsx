@@ -98,16 +98,22 @@ const LoginPage = () => {
           </form>
 
           <div className="text-center">
-            <p className="text-base-content">Don&apos;t have and account?{" "}
+            <p className="text-base-content">
+              Don&apos;t have and account?{" "}
               <Link to="/signup" className="link link-primary">
-              Create an account
+                Create an account
               </Link>
             </p>
           </div>
-
         </div>
       </div>
-      
+      {/* Right Side - Iamge */}
+      <AuthImagePattern
+        title={"Welcome Back!"}
+        subtitle={
+          "Sign in to continue your conversations and catch up with your friends"
+        }
+      />
     </div>
   );
 };
