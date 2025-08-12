@@ -7,8 +7,8 @@ const MessageSkeleton = () => {
       {skeletonMessages.map((_, idx) => (
         <div key={idx} className={`chat ${idx % 2 === 0 ? "chat-start" : "chat-end"}`}>
           <div className="chat-image avatar">
-            <div className="size-10 rounded-full">
-              <div className="skeleton w-`full h-full rounded-full" />
+            <div className="w-10 rounded-full">
+              <div className="skeleton w-full h-full rounded-full" />
             </div>
           </div>
 
@@ -26,3 +26,4 @@ const MessageSkeleton = () => {
 };
 
 export default MessageSkeleton;
+
