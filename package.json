@@ -1,17 +1,26 @@
 {
   "name": "chat-app",
   "version": "1.0.0",
-  "description": "A full-stack application leveraging the power of MongoDB, Express, React, and Node.js. It features secure user authentication with bcrypt, JWT based authorization, and real-time messaging using Socket.IO.",
+  "description": "A full-stack application leveraging the power of MongoDB, Express, React, and Node.js. It features secure user authentication with bcrypt, JWT-based authorization, and real-time messaging using Socket.IO.",
   "main": "index.js",
   "scripts": {
-    "install:all": "npm install --prefix backend && npm install --prefix frontend",
-    "build": "npm run build --prefix frontend",
+    "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
     "start": "npm run start --prefix backend"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Monametsi-s/chat-app.git"
   },
+  "keywords": [
+    "MERN",
+    "MongoDB",
+    "Express",
+    "React",
+    "Node.js",
+    "Socket.IO",
+    "JWT",
+    "bcrypt"
+  ],
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Monametsi-s/chat-app/issues"
