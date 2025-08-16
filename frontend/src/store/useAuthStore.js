@@ -94,7 +94,7 @@ export const useAuthStore = create((set, get) => ({
       set({ onlineUsers: userIds });
     });
   },
-  disconeectSocket: () => {
+  disconnectSocket: () => {
     if (get().socket?.connected) get().socket.disconnect();
   },
 }));
