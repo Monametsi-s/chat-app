@@ -27,7 +27,7 @@ function Sidebar() {
           <Users className="size-6" />
           <span className="font-medium hidden lg:block">Contacts</span>
         </div>
-        {/* TODO: Online filter toggle */}
+          {/* Online filter toggle */}
         <div className="mt-3 hidden lg:flex items-center gap-2">
           <label className="cursor-pointer flex items-center gap-2">
             <input
@@ -39,7 +39,7 @@ function Sidebar() {
             <span className="text-sm">Show online only</span>
           </label>
           <span className="text-xs text-zinc-500">
-            {/* ({onlineUsers.length - 1} online) */}online
+            ({onlineUsers.length - 1} online)
           </span>
         </div>
       </div>
@@ -67,7 +67,7 @@ function Sidebar() {
                   className="absolute bottom-0 right-0 size-3 bg-green-500 
                   rounded-full ring-2 ring-zinc-900"
                 />
-              )};
+              )}
             </div>
 
             {/* User info - only visible on larger screens */}
@@ -85,7 +85,7 @@ function Sidebar() {
         )}
       </div>
     </aside>
-  );
+  )
 };
 
 export default Sidebar;
