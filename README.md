@@ -3,6 +3,13 @@
 Dive into real-time conversations with the **MERN Chat App** – a robust, full-stack application leveraging the power of **MongoDB, Express, React, and Node.js**. This project features secure **user authentication** with bcrypt, **JWT-based authorization**, and **real-time messaging** using **Socket.IO**.
 
 ---
+FrontEnd System Arcitecture
+<img width="831" height="396" alt="image" src="https://github.com/user-attachments/assets/1190861f-80db-452a-a759-4ac26611c7eb" />
+
+BackEnd System Architecture
+<img width="955" height="498" alt="Screenshot 2025-09-24 114448" src="https://github.com/user-attachments/assets/01ad96b2-57e0-4f49-a7a7-8abe0e38b8b5" />
+
+
 
 ## 🚀 Features
 
