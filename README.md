@@ -9,7 +9,38 @@ FrontEnd System Arcitecture
 BackEnd System Architecture
 <img width="955" height="498" alt="Screenshot 2025-09-24 114448" src="https://github.com/user-attachments/assets/01ad96b2-57e0-4f49-a7a7-8abe0e38b8b5" />
 
+This diagram shows the architecture of a backend system built with Express.js API. Here's what's included:
 
+* **Top Level:**
+   API Gateway (Express server) - the main entry point that handles HTTP/HTTPS requests
+
+* **Services Layer:**
+  WebSocket Service - handles real-time communication via WS/WSS protocols  
+      Cloudinary Service - manages media/image storage and processing
+
+* **Controllers:**
+  Message Controller - handles message-related operations  
+      Auth Controller - manages authentication and authorization
+
+* **Database & Utilities:**
+  DB Connection - database connectivity layer  
+  Backend Utilities - common helper functions  
+  Seed Data - initial data setup for the database
+
+* **Routing:**
+  Message Routes - endpoints for message operations  
+  Auth Routes - authentication/authorization endpoints
+
+* **Data Models:**
+  User Model - represents user data structure  
+  Message Model - represents message data structure
+
+* **Middleware:**
+  JWT Middleware - handles JSON Web Token authentication  
+  Error Handler - manages error processing and responses
+
+
+The diagram shows how requests flow from the API Gateway through controllers, utilize various services and utilities, interact with the database models, and are processed through middleware components. It's a typical Node.js/Express backend architecture with real-time messaging capabilities.
 
 ## 🚀 Features
 
